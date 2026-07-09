@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "D*wn Censor",
+  "version": "1.0",
+  "description": "Automatically censors that specific launcher name anywhere (Extremely lightweight).",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
